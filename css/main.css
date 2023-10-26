@@ -1478,8 +1478,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 140px;
-  height: 23px;
+width: 150px;
 }
 
 
@@ -1561,15 +1560,15 @@ input::-moz-focus-inner {
 
 @media screen and (max-width:600px) {
   .header-logo img {
-    width: 120px;
-    height: 19px;
+    width: 150px;
+    height: max-content;
   }
 
 }
 
 @media screen and (max-width:500px) {
   .header-logo {
-    right: 3.2rem;
+    right: 1rem;
   }
 
   .header-email {
@@ -1581,7 +1580,7 @@ input::-moz-focus-inner {
 @media screen and (max-width:400px) {
   .header-logo {
     right: auto;
-    left: 4.2rem;
+    left: .4rem;
   }
 
   .header-email {
