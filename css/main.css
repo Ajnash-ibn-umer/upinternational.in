@@ -1796,8 +1796,8 @@ width: 150px;
 .intro-content {
   z-index: 2;
   height: 100%;
-  padding-top: 20vh;
-  padding-bottom: 24rem;
+  padding-top: 5vh;
+  padding-bottom: 20rem;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1861,7 +1861,7 @@ width: 150px;
   align-items: flex-end;
   position: absolute;
   left: 20px;
-  bottom: 9.6rem;
+  bottom: 30rem;
 }
 
 
