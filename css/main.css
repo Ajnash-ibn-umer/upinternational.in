@@ -460,7 +460,16 @@ img.h-pull-left {
   margin: 1.2rem 2.8rem 1.2rem 0;
 }
 
-
+.logo{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.2;
+  color: #ffffff;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-bottom: .8rem;
+}
 /* ------------------------------------------------------------------- 
  * ## tables
  * ------------------------------------------------------------------- */
