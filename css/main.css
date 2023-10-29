@@ -2954,3 +2954,48 @@ html.no-csstransitions .intro-content__bottom {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+
+.main-container{
+margin-top: 50px;
+}
+.team-member hr {
+    width: 1rem;
+    margin: 10px auto;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    margin: 8px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.team-member:hover {
+    transform: scale(1.1);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.team-member h4,
+.team-member p {
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
+@media only screen and (max-width: 990px){
+  .our-team{ margin-bottom: 30px; }
+}
