@@ -2999,3 +2999,18 @@ margin-top: 50px;
 @media only screen and (max-width: 990px){
   .our-team{ margin-bottom: 30px; }
 }
+
+
+/* logo list */
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+
+.logo-container img{
+  filter: grayscale(100%);
+  height: max-content
+}
