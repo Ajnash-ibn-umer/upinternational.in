@@ -244,10 +244,13 @@ $('#mc-form').submit(function(event) {
     })
   });
 
+  
    /* initialize
     * ------------------------------------------------------ */
     (function ssInit() {
 
+    
+        
         ssPreloader();
         ssPrettyPrint();
         ssSlickSlider();
